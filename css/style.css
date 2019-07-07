@@ -1,0 +1,96 @@
+section{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.bg-ima{
+    background: url(/assets/waterInGlass.jpg) fixed  no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.bg-ima h1{
+    margin-top: 80px;
+    background:rgba(241, 239, 239, 0.2);
+    color: white;
+    width: 300px;
+    border-radius: 15px;
+    animation: yourAnimation 0.5s forwards 0s linear;
+}
+#paraSlo{
+    background:rgba(241, 239, 239, 0.2);
+    width: 700px;
+    height: 300px;
+    border-radius: 15px;
+    animation: yourAnimation 0.5s forwards 0s linear;
+}
+.bg-ima p{
+    color: white;
+    padding: 80px 100px;
+}
+#btnGet{
+    background:rgba(229, 255, 0, 0.5);
+    padding-top: 8px;
+    padding-right: 10px;
+    margin-top: 7px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    animation: yourAnimation 0.5s forwards 0s linear;
+}
+#btnGet:hover{
+    cursor: pointer;
+}
+.bg-ima a{
+    text-decoration: none;
+    color: white;
+}
+.aboutUs{
+
+    border-radius: 15px;
+    height: 500px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.ourGoals{
+    background: #fff;
+    padding: 50px;
+    font-weight: bold;
+}
+
+@media (max-width:764px){
+    .bg-ima{
+        height: 100vh;
+    }
+    #paraSlo{
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 15px;
+        padding-right: 5px;
+        height: 200px;
+        font-size: 10px;
+    }
+    .bg-ima p{
+        padding-top:50px;
+    }
+    #h1span{
+        font-size: 50px;
+        text-align: center;
+        padding-right: 70px;
+    }
+}
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(0) translateX(-20px);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateX(0);
+        opacity: 1;
+        }
+}
+
+.formPage{
+    margin-top: 15vh;
+}
